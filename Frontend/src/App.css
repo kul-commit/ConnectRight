@@ -1,0 +1,85 @@
+.landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/public/Futuristic Metallic Design.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.landingPageContainer nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+.navlist p {
+  cursor: pointer;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navlist a:hover {
+  color: #6988ba;
+}
+
+.landingMainContainer {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.heroImg {
+  margin-top: 50px;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.loginBtn {
+  background-color: #6988ba;
+  padding: 10px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.loginBtn p {
+  margin: 0;
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+}
+
+.loginBtn:hover {
+  background-color: #213a63;
+  transform: scale(1.05);
+}
+
+.heroImg img {
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
